@@ -1,7 +1,7 @@
 provider "google" {
   version = "3.5.0"
 
-  credentials = file("<NAME>.json")
+  credentials = file("network-playground-key.json")
 
   project = "network-playground-273716"
   region  = "us-central1"
